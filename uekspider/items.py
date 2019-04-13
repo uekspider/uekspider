@@ -11,4 +11,8 @@ import scrapy
 class UekspiderItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+
+    title = scrapy.Field()     # 标题
+    conlink = scrapy.Field()   # 内容链接
+    con = scrapy.Field()       # 内容
+    data = scrapy.Field()      # 时间
