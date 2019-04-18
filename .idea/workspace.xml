@@ -4,7 +4,6 @@
     <list default="true" id="816d2f2f-4c90-4d88-9835-9bfec27a0a7e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uekspider/spiders/a18566.py" beforeDir="false" afterPath="$PROJECT_DIR$/uekspider/spiders/a18566.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +17,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="248">
-                <caret line="82" column="13" lean-forward="true" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
+              <first_editor relative-caret-position="336">
+                <caret line="106" column="36" lean-forward="true" selection-start-line="106" selection-start-column="35" selection-end-line="106" selection-end-column="46" />
               </first_editor>
               <second_editor />
             </state>
@@ -41,9 +40,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="90" />
-    <option name="y" value="366" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="478" />
+    <option name="y" value="78" />
     <option name="width" value="1512" />
     <option name="height" value="870" />
   </component>
@@ -105,15 +104,16 @@
       <workItem from="1555125412562" duration="3229000" />
       <workItem from="1555139542400" duration="2450000" />
       <workItem from="1555142867894" duration="790000" />
-      <workItem from="1555562634492" duration="3917000" />
+      <workItem from="1555562634492" duration="5220000" />
+      <workItem from="1555573120088" duration="2276000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10386000" />
+    <option name="totallyTimeSpent" value="13965000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="319" y="52" width="1008" height="580" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.15925626" />
@@ -167,8 +167,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="248">
-            <caret line="82" column="13" lean-forward="true" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
+          <first_editor relative-caret-position="336">
+            <caret line="106" column="36" lean-forward="true" selection-start-line="106" selection-start-column="35" selection-end-line="106" selection-end-column="46" />
           </first_editor>
           <second_editor />
         </state>

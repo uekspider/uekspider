@@ -1,6 +1,17 @@
 # 网络爬虫
+#### 一、定义
+网络爬虫（又被称为网页蜘蛛，网络机器人，在FOAF社区中间，更经常的称为网页追逐者），是一种按照一定的规则，自动地抓取万维网信息的程序或者脚本。另外一些不常使用的名字还有蚂蚁、自动索引、模拟程序或者蠕虫。
+#### 二、分类
+通用爬虫 聚焦爬虫
+#### 三、薪资待遇
+![image](./img/爬虫工程师工资.png)
 
 # 安装软件
+>链接：https://pan.baidu.com/s/1I-J7b7OZV8fSdOYBf55ToQ 
+提取码：j0xr
+- [python](https://www.python.org/downloads/)
+- [pyCharm](https://www.cnblogs.com/horns/p/10699949.html)
+- Twisted网络引擎框架
 
 # uekspider
 Scrapy，Python开发的一个快速、高层次的屏幕抓取和web抓取框架，用于抓取web站点并从页面中提取结构化的数据。Scrapy用途广泛，可以用于数据挖掘、监测和自动化测试。  
@@ -69,10 +80,31 @@ def parse(self,response):
     print(res1,res2,res3) #输出内容检查是否能够获取
 ```
 # python
-#### 一、安装
-
+#### 一、解释器的下载与安装
+######(1)[下载安装包](https://www.python.org/downloads/)
+![image](./img/下载解释器1.png)
+######(2)安装解释器,打开到下载的目录，双击下载的文件安装。
+![image](./img/安装1.png)
+######(3)点击“Install” 进行安装
+![image](./img/安装2.png)
+![image](./img/安装3.png)
+######(4)运行，测试是否安装成功
+![image](./img/运行1.png)
+![image](./img/运行2.png)
 # xpath
-#### 一、xpath
+通过路径的方式获取页面元素
+#### 一、[xpath入门](http://www.w3school.com.cn/xpath/index.asp)
+- // 从当前节点选取后代节点（任意位置）
+- // NodeName  获取页面中所有元素节点
+- /  从当前节点获取元素
+- .  当前节点
+- .. 当前节点
+- @选择属性
+  - /@href 从当前节点获取href属性
+  - /@* 获取元素全部属性
+  - tag[@attribute='value'] 获取attribute=value的值
+- [tag] 选择所有具有特定元素的节点
+  - //div/ul/li[div] div子元素中ul子元素li(拥有div子元素的)
 
 # 项目要求
 #### 一、表格字段描述
