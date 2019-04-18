@@ -81,16 +81,18 @@ def parse(self,response):
 ```
 # 四、python
 #### 1、解释器的下载与安装
-######  1.[下载安装包](https://www.python.org/downloads/)
-![image](./img/下载解释器1.png)
-######  2.安装解释器,打开到下载的目录，双击下载的文件安装。
-![image](./img/安装1.png)
-######  3.点击“Install” 进行安装
-![image](./img/安装2.png)
-![image](./img/安装3.png)
-######  4.运行，测试是否安装成功
-![image](./img/运行1.png)
-![image](./img/运行2.png)
+[安装详情请点击](./python安装.md)
+#### 2、python概述
+python是增长最快的主流编程语言  
+Python是一种解释型脚本语言，可以应用于以下领域：
+- Web 和 Internet开发
+- 科学计算和统计
+- 教育
+- 桌面界面开发
+- 软件开发
+- 后端开发
+#### 3、python基础
+
 # 五、xpath
 通过路径的方式获取页面元素
 #### 一、[xpath入门](http://www.w3school.com.cn/xpath/index.asp)
