@@ -12,8 +12,9 @@
 - [python](https://www.python.org/downloads/)
 - [pyCharm](https://www.cnblogs.com/horns/p/10699949.html)
 - Twisted网络引擎框架
+- chrome扩展 [XPath Helper](./chrome_xpath.md) 
 
-# 三、Scrapy
+三、Scrapy
 Scrapy，Python开发的一个快速、高层次的屏幕抓取和web抓取框架，用于抓取web站点并从页面中提取结构化的数据。Scrapy用途广泛，可以用于数据挖掘、监测和自动化测试。  
 Scrapy吸引人的地方在于它是一个框架，任何人都可以根据需求方便的修改。它也提供了多种类型爬虫的基类，如BaseSpider、sitemap爬虫等，最新版本又提供了web2.0爬虫的支持。
 #### 1、目录结构
@@ -110,15 +111,16 @@ Python是一种解释型脚本语言，可以应用于以下领域：
 
 # 六、项目要求
 #### 1、表格字段描述
-id|column|url|page_num|header_url|tail_url|detail_head_url|detail_tail_url|detail_xpath|detail_re|detail_url_xpath|detail_url_re|title_xpath|title_re|content_xpath|content_re|time_xpath|time_re|time_in_list|title_in_list|page_start_num|post_data|post_data_re|
----|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---
-标识符（已提供）|标题|地址|总页数|列表域名地址（变化值前全部地址不包含变化值）|变化值之后的全部地址（不包含变化值）|内容页的域名地址|内容页除域名外、变化值以外的地址(可选)|父元素xpath(可选)|父元素正则[可选]|内容页url的xpath|内容页url的正则|文章标题的xpath|文章标题的正则|文章内容的xpath|文章内容的正则|文章发表时间的xpath|文章发表时间的正则|时间是否在列表页（）|标题是否在列表页（）|列表页开始页码|post参数键值对|post变化值正则|
-46240|农村产权交易-成交公示|http://58.216.247.121:8086/ggzy/jyxx/001004/001004004/about.html|
+-|-|-|id|column|url|page_num|header_url|tail_url|detail_head_url|detail_tail_url|detail_xpath|detail_re|detail_url_xpath|detail_url_re|title_xpath|title_re|content_xpath|content_re|time_xpath|time_re|time_in_list|title_in_list|page_start_num|post_data|post_data_re|
+---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---
+审核人|负责人|标识符（已提供）|标题|地址|总页数|列表域名地址（变化值前全部地址不包含变化值）|变化值之后的全部地址（不包含变化值）|内容页的域名地址|内容页除域名外、变化值以外的地址(可选)|父元素xpath(可选)|父元素正则[可选]|内容页url的xpath|内容页url的正则|文章标题的xpath|文章标题的正则|文章内容的xpath|文章内容的正则|文章发表时间的xpath|文章发表时间的正则|时间是否在列表页（）|标题是否在列表页（）|列表页开始页码|post参数键值对|post变化值正则|
+ 杨登辉|杨俊林|get方式请求|46240|农村产权交易-成交公示|http://58.216.247.121:8086/ggzy/jyxx/001004/001004004/about.html|
 #### 2、情景分析解决
 1. column与url不对应，需根据column更改url
 
 # 七、分组名单
 组名|1|2|3|4|5|6|7|8
 ---|---|---|---|---|---|---|---|---
-组长|杨俊林|靳志龙|陈艳伟|韩钟涛|张斌|贾桂超|李彦榕|王莎莎|
-组员| | | | | | |牛晓鑫| 
+组长| | | | | | | |
+组员|杨俊林|靳志龙|陈艳伟|韩钟涛|张斌|贾桂超|牛晓鑫 李彦榕|王莎莎|
+ 
