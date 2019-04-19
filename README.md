@@ -111,10 +111,12 @@ Python是一种解释型脚本语言，可以应用于以下领域：
 
 # 六、项目要求
 #### 1、表格字段描述
--|-|-|id|column|url|page_num|header_url|tail_url|detail_head_url|detail_tail_url|detail_xpath|detail_re|detail_url_xpath|detail_url_re|title_xpath|title_re|content_xpath|content_re|time_xpath|time_re|time_in_list|title_in_list|page_start_num|post_data|post_data_re|
----|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---
-审核人|负责人|标识符（已提供）|标题|地址|总页数|列表域名地址（变化值前全部地址不包含变化值）|变化值之后的全部地址（不包含变化值）|内容页的域名地址|内容页除域名外、变化值以外的地址(可选)|父元素xpath(可选)|父元素正则[可选]|内容页url的xpath|内容页url的正则|文章标题的xpath|文章标题的正则|文章内容的xpath|文章内容的正则|文章发表时间的xpath|文章发表时间的正则|时间是否在列表页（）|标题是否在列表页（）|列表页开始页码|post参数键值对|post变化值正则|
- 杨登辉|杨俊林|get方式请求|46240|农村产权交易-成交公示|http://58.216.247.121:8086/ggzy/jyxx/001004/001004004/about.html|
+-|-|-|id|column|url|page_num|tail_url|header_url|tail_url|detail_head_url|detail_tail_url|detail_xpath|detail_re|detail_url_xpath|detail_url_re|title_xpath|title_re|content_xpath|content_re|time_xpath|time_re|time_in_list|title_in_list|page_start_num|post_data|post_data_re|
+---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---
+审核人|负责人|备注|*标识符*|*标题*|*网址*|*总页数*|-(不填)|列表网址（变化值前全部地址不包含变化值的部分）|列表网址（变化值之后的、不包含变化值的部分）|文章内容页的网址（变化值前地址，不包含变化值）|文章内容页的网址（变化值之后的网址，不包括变化值）|父元素xpath|父元素正则|内容页url的xpath|内容页url的正则|文章标题的xpath|文章标题的正则|文章内容的xpath|文章内容的正则|文章时间的xpath|文章时间的正则|文章时间是否在列表页（0/1）|标题是否在列表页（0/1）|列表页面开始页码|post参数键值对（post方式formData值，变化的Value用%s代替）|post变化值正则(除页码以外的所有数据的key和value)|
+ 杨登辉|杨俊林|get方式请求|*46240*|*农村产权交易-成交公示*|*http://58.216.247.121:8086/ggzy/jyxx/001004/001004004/about.html*|32|-|http://58.216.247.121:8086/ggzy/jyxx/001004/001004004/|.html|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-
+杨登辉 |贾桂超|post方式请求|23062|扬州工程建设信息网|http://www.yzcetc.com/yzcetc/YW_Info/ZiGeYS/MoreYSList.aspx?CategoryNum=003|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
+
 #### 2、情景分析解决
 1. column与url不对应，需根据column更改url
 
